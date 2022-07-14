@@ -1,3 +1,9 @@
 from django.contrib import admin
 
-# Register your models here.
+# Registrando os modelos de bancos de dados  para o painel admin.
+
+from .models import Photo, Category
+
+admin.site.register(Category)
+admin.site.register(Photo)
+
